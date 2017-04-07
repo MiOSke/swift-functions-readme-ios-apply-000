@@ -6,11 +6,7 @@ func sayHello() {
 sayHello()
 sayHello()
 
-// Uncomment this line to see the error that is printed in the console.
-// (You can uncomment a line by removing the // at the beginning of the line.)
-//print(greeting)
-
-
+/*
 func sayHelloToGarfield() {
     print("Hello, Garfield, why do you sleep so much?")
 }
@@ -22,11 +18,20 @@ func sayHelloToBuster() {
 func sayHelloToScratchy() {
     print("Hello, Scratchy, why do you sleep so much?")
 }
+*/
 
+let garfield = "Mr. Garfield"
+let buster = "Mr. Buster"
+let scratchy = "Mrs. Scratchy"
 
 func sayHelloToCat(catName: String) {
+    
     print("Hello, \(catName), why do you sleep so much?")
 }
+
+sayHelloToCat(catName: garfield)
+sayHelloToCat(catName: buster)
+sayHelloToCat(catName: scratchy)
 
 
 func sayHello(name: String) {
@@ -34,11 +39,11 @@ func sayHello(name: String) {
 }
 
 sayHello(name: "Mittens")
-// Prints "Hello Mittens, why do you sleep so much?"
 
 sayHello(name: "Socks")
-// Prints "Hello Socks, why do you sleep so much?"
 
 let dumpsterCat = "Rocky"
+
 sayHello(name: dumpsterCat)
-// Prints "Hello Rocky, why do you sleep so much?"
+
+
